@@ -3,18 +3,36 @@
 body {
     background-color: rgb(222, 219, 219);;
 }
-
+.carousel-inner img {
+    opacity: 0.8;
+}
+.carousel-caption{
+    color: #1f1f2b;
+    
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-text{
+    justify-items: left;
+}
 .card-section {
+    width: 100%;
     font-family: 'Lato', sans-serif;
-    align-items: center;
-    background: #000;
-    height: 450px;
+    background: rgb(19, 18, 18);
     border: solid;
+    padding-top: 20px;
+    padding-bottom: 30px;
     margin-top: 220px;
     margin-bottom: 220px;
 }
 
-.card-container {
+.card{
+    margin-top: 10px;
+}
+
+.card-text {
     color: rgb(222, 219, 219);
 }
 
