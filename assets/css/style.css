@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
 
 body {
-  background-color: rgb(222, 219, 219);
+  background-color: #2b2727;
 }
 .row {
   margin-left: 0;
@@ -15,6 +15,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-left: 10px;
+  margin-top: 220px;
+  margin-bottom: 220px;
 }
 .headline {
   font-family: "Sora", sans-serif;
@@ -65,7 +67,7 @@ body {
 .card-section {
   width: 100%;
   font-family: "Lato", sans-serif;
-  background: rgb(19, 18, 18);
+  background: #0a0a0f;
   border: solid;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -130,7 +132,6 @@ body {
 .card .info {
   position: relative;
   z-index: 3;
-  color: rgb(222, 219, 219);
   opacity: 0;
   transform: translateY(30px);
   transition: 0, 5s all;
@@ -152,15 +153,16 @@ body {
   margin-bottom: 20px;
 }
 
-.card .info .btn {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  background: rgb(222, 219, 219);
-  color: #000;
-  font-size: 14px;
+.card .info .btn-primary {
   font-weight: bold;
   cursor: pointer;
   transition: 0.4s ease-in-out;
+  width: 150px;
+  height: 50px;
+  background: #1a0e8f;
+  box-shadow: 1px 3px 4px rgba(19, 57, 224, 0.5);
+  border-radius: 50px;
+  border: none;
 }
 
 .card-h1 {
@@ -176,11 +178,44 @@ body {
   margin-bottom: 0%;
 }
 
+.text {
+  justify-content: center;
+  font-family: "Sora", sans-serif;
+  font-size: 46px;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#card-background {
+  background-color: #0a58ca;
+}
+
 /* cotação */
 
 .cotacao {
   background: rgb(222, 219, 219);
 }
+
+/** App Section**/
+
+.app-section {
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
+  margin-top: 220px;
+  margin-bottom: 220px;
+  }
+
+.paragrafo {
+  font: Inter;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
 
 /*iframe*/
 
@@ -193,14 +228,15 @@ body {
   justify-content: center;
   align-items: center;
   background: #0a0a0f;
+  flex-wrap: wrap
 }
 
 iframe {
   display: flex;
-  justify-content: end;
-  align-items: flex-end;
-  padding-right: 100px;
-  border: solid 10px rgb(222, 219, 219);
+  justify-content: center;
+  align-items: center;
+  /* padding-right: 100px;
+  border: solid 10px rgb(222, 219, 219); */
 }
 
 .iframe-h3 {
@@ -208,10 +244,11 @@ iframe {
   justify-content: center;
   align-items: center;
   margin: 30px;
-  font-size: 50px;
-  line-height: 80px;
-  font-family: poppinsbold;
+  font-size: 46px;
+  font-weight: 600px;
+  font-family: "Sora";
   color: rgb(222, 219, 219);
+  
 }
 
 /* footer */
@@ -365,3 +402,4 @@ h2 {
     font-size: 14px;
   }
 }
+
