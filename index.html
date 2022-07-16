@@ -1,14 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- normalize -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
+    <!-- css da pagina -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- JS da pagina -->
+    <script src="assets/js/script.js"></script>
+
     <title>Cripto Page</title>
 </head>
-<body>
 
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> <a class="navbar-brand" href="#">CriptoPage</a>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="navbar-nav ml-md-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- Carrossel -->
+                    <div class="container">
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!--  marcadores de posição -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        </div>
+                        
+                        <!-- o carousel -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/img/bitcoin2.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                              <h3>Bitcoin</h3>
+                              <p>Descubra como essa criptomoeda se tornou a mais valiosa do mundo!</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/dev.jpg" alt="Chicago" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                              <h3>Programador blockchain</h3>
+                              <p>Profissao em ascensão sendo disputada no mercado cripto</p>
+                            </div> 
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/img/ether.jpg" alt="New York" class="d-block" style="width:100%;">
+                            <div class="carousel-caption">
+                              <h3>Ethereum</h3>
+                              <p>Tecnologia que vai muito alem de uma moeda digital</p>
+                            </div>  
+                          </div>
+                        </div>
+                        
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </button>
+                      </div>
+                    </div>  
+                </div>
+            </div>
+    </header>
+    <main>
+
+
+        <!-- cards -->
+        <!-- <div class="container-fluid cartao"> -->
+        <div class="row d-md-flex align-items-center card-section ">
+            <div class="col-md-3 d-flex flex-column card-text">
+                <h3 class="mx-3">Principais criptomoedas:</h3>
+                <p class="mx-3">Um pouco mais sobre as 3 moedas digitais referencia no mercado de criptoativos:</p>
+            </div>
+            <!-- <div class="col-md-9 cards-principais"> -->
+                <!-- <div class="row"> -->
+                    <div class="col-md-3 card mx-4">
+                        <img src="/assets/img/criptoyellow.jpg" alt="">
+                        <div class="info">
+                          <h1>Ether</h1>
+                          <p>Ether é o nome dado ao token nativo do blockchain Ethereum e a segunda maior criptomoeda do mundo em 
+                            valor de mercado. O ether pode ser utilizado para enviar pagamentos diretamente para outra pessoa 
+                            sem a necessidade de haver um intermediário entre elas.</p>
+                          <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                        <img src="/assets/img/ethereumultimo.png" alt="">
+                    </div>
+
+                    <div class="col-md-3 card mx-4">
+                        <img src="/assets/img/criptoyellow.jpg" alt="">
+                        <div class="info">
+                          <h1>Bitcoin</h1>
+                          <p>O bitcoin foi a primeira moeda virtual do mundo. Ou seja, ela não existe em papel nem em nenhum lugar além 
+                            de sistemas digitais. Além disso, é uma moeda descentralizada, o que significa que não existem bancos ou 
+                            governos que atuam como intermediários.</p>
+                          <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                        <img src="/assets/img/bitcoin.png" alt="">
+
+                    </div>
+
+                    <div class="col-md-3 card mx-4">
+                        <img src="/assets/img/criptoyellow.jpg" alt="">
+                        <div class="info">
+                          <h1>Theter</h1>
+                          <p>O theter consiste em uma moeda estável que tem paridade 1 para 1 com o dólar. Desde o seu lançamento, o 
+                            tether é uma das principais stablecoins em circulação. Inclusive, ele é o líder em capitalização de mercado.</p>
+                          <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                        <img src="/assets/img/tether.png" alt="">
+                    </div>
+            
+        </div>
+
+        <!-- cotações e algo mais -->
+        <div class="row cotacao">
+            <div class="col-md-6">
+                <ul>
+                    <li class="list-item">
+                        Lorem ipsum dolor sit amet
+                    </li>
+                    <li class="list-item">
+                        Consectetur adipiscing elit
+                    </li>
+                    <li class="list-item">
+                        Integer molestie lorem at massa
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                    sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                    vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis 
+                </p>
+    </main>
+        <!-- iframe -->
+
+        <div class="row iframe-container">
+            <div class="col-md-6">
+                <h3 class="iframe-h3">Agende sua visita e venha nos conhecer:</h3>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1776.
+                    4601728039686!2d-46.68484481596393!3d-23.56741062526823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x94ce57499b4eaaab%3A0xb742db44a55ce752!2sGama%20Academy!5e0!3m2!1spt-
+                    BR!2sbr!4v1657580474735!5m2!1spt-BR!2sbr" allowfullscreen></iframe>
+                  </div> 
+            </div>
+        </div>
+
+
+
+    <footer>
+        <!-- footerzao da massa -->
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget
+                    sapien ve Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam
+                        mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et
+                        feugiat ipsum consequat eu.</small>
+                </p>
+
+            </div>
+            <div class="col-md-4">
+
+                <address>
+                    <strong>Twitter, Inc.</strong><br> 795 Folsom Ave, Suite 600<br> San Francisco, CA 94107<br>
+                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+            </div>
+            <div class="col-md-4">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">
+                            Nome:
+                        </label>
+                        <input type="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+
+                        <label for="exampleInputPassword1">
+                            Email address:
+                        </label>
+                        <input type="name" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
