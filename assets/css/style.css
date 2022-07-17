@@ -28,7 +28,6 @@ nav {
 .btn-primary {
   width: 150px;
   height: 50px;
-
   font-size: 16 px;
   background: #0a58ca;
   box-shadow: 1px 3px 4px rgba(19, 57, 224, 0.5);
@@ -41,6 +40,14 @@ nav {
   top: 5px;
   transition: 0.3s all;
 }
+
+/* Section de funcionamento do App */
+
+.funcionamento {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
 
 .carousel {
   height: 500px;
@@ -167,6 +174,10 @@ nav {
 }
 #card-background {
   background-color: #0a58ca;
+}
+
+.card-btn {
+  height: 35px;
 }
 
 /* cotação */
@@ -384,6 +395,15 @@ h2 {
   }
 
 }
+@media screen and (max-width: 570px) {
+  iframe {
+
+    height: 250px;
+    padding: 10px 0 10px 50px;
+  }
+  .mapa-texto {
+    padding: 10px 0 10px 50px;  }
+}
 @media screen and (max-width: 460px){
   .cotacao {
     padding-left: 0px;
@@ -414,8 +434,8 @@ h2 {
     width: 16px;
   }
   iframe, .mapa-texto {
-    padding: 0;
-  }  
+    padding: 0 0 15px 30px;
+  }
   .iframe-h3 {
     font-size: 20px;
   }
@@ -449,7 +469,7 @@ h2 {
 @media screen and (max-width: 300px) {
   .cotacao .text h3{
     font-size: 16px;
-  }  
+  }
   .cotacao .text p{
     font-size: 11px;
   }
@@ -464,7 +484,4 @@ h2 {
   .logo-moeda {
     width: 13px;
   }
-
-
 }
-
