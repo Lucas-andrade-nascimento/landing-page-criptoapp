@@ -39,7 +39,10 @@
                                 <a class="nav-link" href="#header">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#demo">Informações</a>
+                                <a class="nav-link" href="#informacoes">Informações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#moedas">Moedas</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#mapa">Contato</a>
@@ -61,43 +64,42 @@
         </div>
     </header>
     <main>
-
-   <!-- Como funciona -->
-   <div class="container funcionamento">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center headline">Como funciona</h1>
+        <!-- Como funciona -->
+            <div class="container funcionamento" id="informacoes">
+            <div class="row">
+                <div class="col-md-12 pb-4">
+                    <h2 class="text-center info">Como funciona</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 px-3">
+                    <img src="/assets/img/silhueta.png" class="img-fluid mx-auto d-block py-3"
+                        alt="ícone de contornos não preenchidos de uma pessoa">
+                    <h3 class="text text-center">Crie uma conta</h3>
+                    <p class="text-center">Informe suas preferências (cotações, notícias, informações sobre
+                        novas moedas virtuais)</p>
+                </div>
+                <div class="col-sm-4 px-2">
+                    <img src="/assets/img/escudocheck.png" class="img-fluid mx-auto d-block py-3"
+                        alt="ícone de um escudo com símbolo de 'check' dentro">
+                    <h3 class="text text-center">100% gratuito</h3>
+                    <p class="text-center">Tenha todo o conteúdo na palma de sua mão sem custos</p>
+                </div>
+                <div class="col-sm-4 px-3">
+                    <img src="/assets/img/carinhafeliz.png" class="img-fluid mx-auto d-block py-3"
+                        alt="ícone de carinha feliz">
+                    <h3 class="text text-center">Mantenha-se atualizado</h3>
+                    <p class="text-center">Seja notificado a respeito das novidades sobre as criptomoedas</p>
+                </div>
+            </div>
         </div>
-
-        <div class="row">
-
-            <div class="col-md-4">
-                <img src="/assets/img/silhueta.png" alt="ícone de contornos não preenchidos de uma pessoa">
-                <h2 class="text text-center">Crie uma conta</h2>
-                <p class="text-center">Informe suas preferências (cotações, notícias, informações sobre
-                    novas moedas virtuais)
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <img src="/assets/img/escudocheck.png" alt="ícone de um escudo com símbolo de 'check' dentro">
-                <h2 class="text text-center">100% gratuito</h2>
-                <p class="text-center">Tenha todo o conteúdo na palma de sua mão sem custos</p>
-            </div>
-
-            <div class="col-md-4">
-                <img src="/assets/img/carinhafeliz.png" class="" alt="ícone de carinha feliz">
-                <h2 class="text text-center">Mantenha-se atualizado</h2>
-                <p class="text-center">Seja notificado a respeito das novidades sobre as criptomoedas</p>
-            </div>
-
-        </div>
-
-    </div>
-</div>
         <!-- cards -->
-        <div class="row  card-section ">
-            <div class="col-md-3 d-flex flex-column text px-5">
+        <div class="row card-section "id="moedas">
+            <div class="col-sm-12 p-3 text-center text-light titulo">
+                <h2>O que você terá</h2>
+                <p >Algumas funcionalidades do CriptoApp</p>
+            </div>
+            <div class="col-md-3 d-flex flex-column text">
                 <h3 class="mx-3 text-light">Informações sobre as principais criptomoedas</h3>
                 <p class="mx-3 text-light">No CriptoApp, você fica por dentro de todas as moedas digitais referência no
                     mercado de criptoativos, dentre elas:</p>
@@ -115,7 +117,7 @@
                     <img class="card-img-top" style="width:100%;" src="/assets/img/iconethereum.png" alt="">
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 ">
                 <div class="card img-fluid" id="card-background" style="width:280px">
                     <div class="card-img-overlay info">
                         <h4 class="card-title text-light">Bitcoin</h4>
@@ -129,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 ">
                 <div class="card img-fluid" id="card-background" style="width:280px">
                     <div class="card-img-overlay info">
                         <h4 class="card-title text-light">Theter</h4>
@@ -156,7 +158,7 @@
                 <table class="table table-striped table-dark table-bordered">
                     <thead>
                         <tr>
-                            <th scope="col" class="coluna-logo">     </th>
+                            <th scope="col" class="coluna-logo"> </th>
                             <th scope="col" class="coluna-moeda">Moeda</th>
                             <th scope="col" class="coluna-dolar">Dólar</th>
                             <th scope="col" class="coluna-real">Real</th>
@@ -164,8 +166,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td  ><img src="/assets/img/btc.png" class="logo-moeda" alt="Logo do Bitcoin"></td>
-                            <td >Bitcoin [BTC]</td>
+                            <td><img src="/assets/img/btc.png" class="logo-moeda" alt="Logo do Bitcoin"></td>
+                            <td>Bitcoin [BTC]</td>
                             <td><span id="btc-dolar"></span></td>
                             <td><span id="btc-real"></span></td>
                         </tr>
@@ -177,7 +179,8 @@
 
                         </tr>
                         <tr>
-                            <td><img src="/assets/img/tetheri.png" class="img-fluid logo-moeda" alt="Logo do Tether"></td>
+                            <td><img src="/assets/img/tetheri.png" class="img-fluid logo-moeda" alt="Logo do Tether">
+                            </td>
                             <td>Tether [USDT]</td>
                             <td><span id="tet-dolar"></span></td>
                             <td><span id="tet-real"></span></td>
@@ -239,7 +242,7 @@
 
         <!--aplicativo-->
         <div class="containter-fluid text-black app-section p-5">
-            <div class="col-lg-7 headline ">
+            <div class="col-lg-7">
                 <h3 class="text-start">Baixe o nosso app para desfrutar a experiência completa!</h3>
                 <p class="paragrafo">Aproveite, sem restrições, todo conteúdo do CriptoApp diretamente do seu iPhone ou
                     Android.
@@ -271,7 +274,10 @@
                                 seguinte endereço:</p>
                         </div>
                         <div class="col-sm-6 mapa">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1973547855564!2d-46.6609789763875!3d-23.561354435690884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1657978496418!5m2!1spt-BR!2sbr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="85%" height="400px"></iframe>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1973547855564!2d-46.6609789763875!3d-23.561354435690884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1657978496418!5m2!1spt-BR!2sbr"
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="85%"
+                                height="400px"></iframe>
                         </div>
                     </div>
                 </div>
