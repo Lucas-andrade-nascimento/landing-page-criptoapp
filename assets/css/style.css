@@ -70,7 +70,6 @@ nav {
   font-family: "Lato", sans-serif;
   background: #222225;;
   border: solid;
-  
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 220px;
@@ -183,7 +182,16 @@ nav {
 /* cotação */
 
 .cotacao {
-  background: rgb(222, 219, 219);
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  background: #222225;;
+  border: solid;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo-moeda {
+  width: 20%;
 }
 
 /** App Section**/

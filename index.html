@@ -140,11 +140,62 @@
                     <img class="card-img-top" src="/assets/img/icontether.png" alt="">
                 </div>
             </div>
-            <div class="row text-light">
+        </div>
+            <!-- Tabela cotações -->
+
+            <div class="row cotacao">
+                <div class="col-md-3 d-flex flex-column text px-5">
+                    <h3 class="mx-3 text-light">Cotações em tempo real</h3>
+                    <p class="mx-3 text-light">Mantenha-se atualizado a respeito das cotações de mais de 20 mil
+                        criptomoedas.
+                    </p>
+                </div>
+
+            <div class="col-md-9 table-responsive">
+                <table class="table table-striped table-dark table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">Logo</th>
+                      <th scope="col">Moeda</th>
+                      <th scope="col">Dólar</th>
+                      <th scope="col">Real</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="col"><img src="/assets/img/btc.png" class="img-fluid logo-moeda" alt="Logo do Bitcoin"></th>
+                      <td>Bitcoin [BTC]</td>
+                      <td><span id="btc-dolar"></span></td>
+                      <td><span id="btc-real"></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><img src="/assets/img/ethe.png" class="img-fluid logo-moeda" alt="Logo do Ether"></th>
+                      <td>Ether [ETH]</td>
+                      <td><span id="eth-dolar"></span></td>
+                      <td><span id="eth-real"></span></td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row"><img src="/assets/img/tetheri.png" class="img-fluid logo-moeda" alt="Logo do Tether"></th>
+                      <td>Tether [USDT]</td>
+                      <td><span id="tet-dolar"></span></td>
+                      <td><span id="tet-real"></span></td>
+                      
+                    </tr>
+                    <th scope="row">...</th>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                  </tbody>
+              
+                </table>
+              </div>
+
+            <!-- <div class="row text-light">
                 <span id="btc">$</span>
                 <span id="eth">$</span>
                 <span id="tet">$</span>
-            </div>
+            </div> -->
         </div>
         <!--aplicativo-->
         <div class="containter-fluid text-black app-section p-5">
