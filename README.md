@@ -13,17 +13,24 @@ Realizado em grupo pelos seguintes participantes:
 
 ## Acesse o nosso site e confira: [CriptoGama](https://lucas-andrade-nascimento.github.io/2dCode/)
 
-### Trabalhamos em equipe utilizando o fluxo Gitflow
+### O figma ajudou bastante a termos "um norte" no quesito layout da nossa página
+[Figma](https://www.figma.com/file/6aHp5yWLWxIpOHOWhHkJyP/Cripto-Gama?node-id=41733%3A754)
+
+### Trabalhamos em equipe utilizando o fluxo Gitflow para alcançarmos este "norte" de forma eficiente
 ![Branchs](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Branchs.jpeg)
 
-### Prezamos pela responsividade
+### Prezamos pela responsividade em todos os elementos da página
 ![Responsividade](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Responsividade.gif)
+Utilizamos _Bootstrap_ na página inteira afim de agilizar o design e a responsividade em si. Houveram sim diversos ajustes através de _Media queries_, porém boa parte o _Bootstrap_ já deu conta.
 
 ### Através deste site conseguimos a API das cotações das principais criptos
-* [Coingecko](https://www.coingecko.com/pt/api/documentation)
+* [Coingecko](https://www.coingecko.com/pt/api/documentation) - 
+Dentre tantas opções que o _Coingecko_ oferece, escolhemos puxar e comparar somente o valor do dólar e do real das 3 criptos.
+Tudo bem intuitivo.
 
-### Consumimos a API utilizando o método fetch
-![Consumo-API](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Consumo-API.PNG)
+### Consumimos a API utilizando o método _fetch_ e organizamos as informações nela contidas
+![Consumo-API](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Consumo-API.PNG) - 
+Como o método _fetch_ é assíncrono, ou seja, a consulta é realizada em um site externo ao nosso, essa requisição pode nos retornar algo correto, incorreto ou não dar retorno nenhum. Para isso o _fecth_ retorna uma _promise_ e se essa 'promessa' der certo, ele entra no _.then_ e organiza e imprime as informações que nós direcionamos que apareçam na página. Recomendamos utilizar o _catch_ pois, em caso de exceção ou erro, ele tomará alguma ação para contornar, no nosso caso não implementamos por falta de tempo, mas não é difícil de encontrar conteúdo na internet que te auxiliem no controle das APIs e suas nuances.
 
 ![Lista-de-cotacoes](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Lista-de-cotacoes.PNG)
 
