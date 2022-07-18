@@ -104,40 +104,36 @@
                 <p class="mx-3 text-light">No CriptoApp, você fica por dentro de todas as moedas digitais referência no
                     mercado de criptoativos, dentre elas:</p>
             </div>
-            <div class="col-md-3">
-                <div class="card img-fluid" id="card-background" style="width:280px">
+            <div class="col-md-3 cartoes">
+                <div class="card img-fluid" id="card-background">
                     <div class="card-img-overlay info">
                         <h4 class="card-title text-light">Ether</h4>
                         <p class="card-text">Ether é o nome dado ao token nativo do blockchain Ethereum e a segunda
-                            maior criptomoeda do mundo em valor de mercado. O ether pode ser utilizado para enviar
-                            pagamentos diretamente para outra pessoa sem a necessidade de haver um intermediário entre
-                            elas.</p>
-                        <a href="#" class="btn btn-primary card-btn">Saiba mais</a>
+                            maior criptomoeda do mundo em valor de mercado.</p>
+                        <a href="#" class="btn btn-primary card-btn ">Saiba mais</a>
                     </div>
                     <img class="card-img-top" style="width:100%;" src="/assets/img/iconethereum.png" alt="">
                 </div>
             </div>
-            <div class="col-md-3 ">
-                <div class="card img-fluid" id="card-background" style="width:280px">
+            <div class="col-md-3 cartoes">
+                <div class="card img-fluid" id="card-background" >
                     <div class="card-img-overlay info">
                         <h4 class="card-title text-light">Bitcoin</h4>
-                        <p class="card-text">O bitcoin foi a primeira moeda virtual do mundo. Ou seja, ela não existe em
-                            papel nem em nenhum lugar além de sistemas digitais. Além disso, é uma moeda
-                            descentralizada, o que significa que não existem bancos ou governos que atuam como
-                            intermediários.</p>
+                        <p class="card-text">O bitcoin foi a primeira moeda virtual do mundo, ou seja, ela não existe em
+                            papel nem em nenhum lugar além de sistemas digitais.</p>
                         <a href="#" class="btn btn-primary card-btn">Saiba mais</a>
                     </div>
                     <img class="card-img-top" src="/assets/img/iconbitcoin.png" alt="">
                 </div>
             </div>
 
-            <div class="col-md-3 ">
-                <div class="card img-fluid" id="card-background" style="width:280px">
+            <div class="col-md-3 cartoes">
+                <div class="card img-fluid" id="card-background" >
                     <div class="card-img-overlay info">
                         <h4 class="card-title text-light">Theter</h4>
-                        <p class="card-text">O theter consiste em uma moeda estável que tem paridade 1 para 1 com o
-                            dólar. Desde o seu lançamento, o tether é uma das principais stablecoins em circulação.
-                            Inclusive, ele é o líder em capitalizaçãode mercado.</p>
+                        <p class="card-text"> O ether pode ser utilizado para enviar
+                            pagamentos diretamente para outra pessoa sem a necessidade de haver um intermediário entre
+                            elas.</p>
                         <a href="#" class="btn btn-primary card-btn">Saiba mais</a>
                     </div>
                     <img class="card-img-top" src="/assets/img/icontether.png" alt="">
@@ -172,14 +168,14 @@
                             <td><span id="btc-real"></span></td>
                         </tr>
                         <tr>
-                            <td><img src="/assets/img/ethe.png" class="img-fluid logo-moeda" alt="Logo do Ether"></td>
+                            <td><img src="/assets/img/ethe.png" class="logo-moeda" alt="Logo do Ether"></td>
                             <td>Ether [ETH]</td>
                             <td><span id="eth-dolar"></span></td>
                             <td><span id="eth-real"></span></td>
 
                         </tr>
                         <tr>
-                            <td><img src="/assets/img/tetheri.png" class="img-fluid logo-moeda" alt="Logo do Tether">
+                            <td><img src="/assets/img/tetheri.png" class=" logo-moeda" alt="Logo do Tether">
                             </td>
                             <td>Tether [USDT]</td>
                             <td><span id="tet-dolar"></span></td>
@@ -198,7 +194,14 @@
         </div>
 
         <!-- Carrossel -->
-        <div class="container slider">
+        <div class="row">
+            <div class="col-12-sm text-center d-block noticias pt-5">
+                <h2>Noticias e blog</h2>
+                <p>Receba todas as novidade sobre a blockchain</p>
+
+            </div>
+        </div>
+        <div class="container-fluid">
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
                 <!--  marcadores de posição -->
                 <div class="carousel-indicators">
@@ -209,24 +212,24 @@
                 <!-- o carousel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/img/bitcoin2.jpg" alt="Bitcoin" class="d-block" style="width:100%">
+                        <img src="assets/img/carousel-images/elochain.jpg" alt="Imagem com desenho de um elo">
                         <div class="carousel-caption">
-                            <h3>Bitcoin</h3>
-                            <p>Descubra como essa criptomoeda se tornou a mais valiosa do mundo!</p>
+                            <h3>Segurança da blockchain</h3>
+                            <p>Descubra como funciona e porquê ela é tão segura</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/dev.jpg" alt="Developer" class="d-block" style="width:100%">
+                        <img src="assets/img/carousel-images/dev.jpg" alt="tela de computador com linguagem de progamação">
                         <div class="carousel-caption">
                             <h3>Programador blockchain</h3>
                             <p>Profissao em ascensão sendo disputada no mercado cripto</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/img/ether.jpg" alt="ether" class="d-block" style="width:100%;">
+                        <img src="assets/img/carousel-images/blockchain.jpg" alt="dados interligados"">
                         <div class="carousel-caption">
-                            <h3>Ethereum</h3>
-                            <p>Tecnologia que vai muito alem de uma moeda digital</p>
+                            <h3>Smartcontracts</h3>
+                            <p>Nova maneira de celebrar negócios no mundo digital</p>
                         </div>
                     </div>
                 </div>
