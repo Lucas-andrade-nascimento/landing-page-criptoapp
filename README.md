@@ -11,7 +11,10 @@ Realizado em grupo pelos seguintes participantes:
 * [Daniel Santos](https://github.com/danielfjs)
 * [Gabriel Lúcio](https://github.com/Bieoool355)
 
-## Acesse o site e confira: [CriptoGama](https://lucas-andrade-nascimento.github.io/2dCode/)
+## Acesse o nosso site e confira: [CriptoGama](https://lucas-andrade-nascimento.github.io/2dCode/)
+
+### Trabalhamos em equipe utilizando o fluxo Gitflow
+![Branchs](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Branchs.jpeg)
 
 ### Prezamos pela responsividade
 ![Responsividade](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Responsividade.gif)
