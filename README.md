@@ -30,7 +30,7 @@ Tudo bem intuitivo.
 
 ### Consumimos a API utilizando o método _fetch_ e organizamos as informações nela contidas
 ![Consumo-API](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Consumo-API.PNG) - 
-Como o método _fetch_ é assíncrono, ou seja, a consulta é realizada em um site externo ao nosso, essa requisição pode nos retornar algo correto, incorreto ou não dar retorno nenhum. Para isso o _fecth_ retorna uma _promise_ e se essa 'promessa' der certo, ele entra no _.then_ e organiza e imprime as informações que nós direcionamos que apareçam na página. Recomendamos utilizar o _catch_ pois, em caso de exceção ou erro, ele tomará alguma ação para contornar, no nosso caso não implementamos por falta de tempo, mas não é difícil de encontrar conteúdo na internet que te auxiliem no controle das APIs e suas nuances.
+Como o método _[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)_ retorna uma _[promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise)_ e se essa 'promessa' der certo, ele é executada _.then_ e organiza e imprime as informações que nós direcionamos que apareçam na página. Se não, ela retorna um erro mas não comprometendo o andamento do código (pois ela é assincrona). Recomendamos utilizar o _catch_ pois, em caso de exceção ou erro, ele tomará alguma ação para contornar, no nosso caso não implementamos por falta de tempo, mas não é difícil de encontrar conteúdo na internet que te auxiliem no controle das APIs e suas nuances.
 
 ![Lista-de-cotacoes](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Lista-de-cotacoes.PNG)
 
