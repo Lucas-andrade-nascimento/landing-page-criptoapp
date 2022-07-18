@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- normalize -->
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <!-- css da pagina -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- JS da pagina -->
+    <script src="assets/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1bf6ad4369.js" crossorigin="anonymous"></script>
+
+    <title>Cripto Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="col-sm-12">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">CriptoGama</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#header">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#informacoes">Informações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#moedas">Moedas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mapa">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="containter-fluid text-white topo p-5" id="header">
+            <div class="col-lg-6 headline">
+                <h1 class="text-start">CriptoApp,<br>tudo que você precisa saber sobre o universo cripto em um só lugar.
+                </h1>
+                <button class="btn btn-primary">Cadastre-se</button>
+            </div>
+            <div class="col-lg-6 float-end pt-5 px-5">
+                <img class="img-fluid celular" src="assets/img/cel.png" alt="celular com aplicativo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Como funciona -->
+            <div class="container funcionamento" id="informacoes">
+            <div class="row">
+                <div class="col-md-12 pb-4">
+                    <h2 class="text-center info">Como funciona</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 px-3">
+                    <img src="/assets/img/silhueta.png" class="img-fluid mx-auto d-block py-3"
+                        alt="ícone de contornos não preenchidos de uma pessoa">
+                    <h3 class="text text-center">Crie uma conta</h3>
+                    <p class="text-center">Informe suas preferências (cotações, notícias, informações sobre
+                        novas moedas virtuais)</p>
+                </div>
+                <div class="col-sm-4 px-2">
+                    <img src="/assets/img/escudocheck.png" class="img-fluid mx-auto d-block py-3"
+                        alt="ícone de um escudo com símbolo de 'check' dentro">
+                    <h3 class="text text-center">100% gratuito</h3>
+                    <p class="text-center">Tenha todo o conteúdo na palma de sua mão sem custos</p>
+                </div>
+                <div class="col-sm-4 px-3">
+                    <img src="/assets/img/carinhafeliz.png" class="img-fluid mx-auto d-block py-3"
+                        alt="ícone de carinha feliz">
+                    <h3 class="text text-center">Mantenha-se atualizado</h3>
+                    <p class="text-center">Seja notificado a respeito das novidades sobre as criptomoedas</p>
+                </div>
+            </div>
+        </div>
+        <!-- Cards -->
+        <div class="row card-section "id="moedas">
+            <div class="col-sm-12 p-3 text-center text-light titulo">
+                <h2>O que você terá</h2>
+                <p >Algumas funcionalidades do CriptoApp</p>
+            </div>
+            <div class="col-md-3 d-flex flex-column text">
+                <h3 class="mx-3 text-light">Informações sobre as principais criptomoedas</h3>
+                <p class="mx-3 text-light">No CriptoApp, você fica por dentro de todas as moedas digitais referência no
+                    mercado de criptoativos, dentre elas:</p>
+            </div>
+            <div class="col-md-3 cartoes">
+                <div class="card img-fluid" id="card-background">
+                    <div class="card-img-overlay info">
+                        <h4 class="card-title text-light">Ether</h4>
+                        <p class="card-text">Ether é o nome dado ao token nativo do blockchain Ethereum e a segunda
+                            maior criptomoeda do mundo em valor de mercado.</p>
+                        <a href="#" class="btn btn-primary card-btn ">Saiba mais</a>
+                    </div>
+                    <img class="card-img-top" style="width:100%;" src="/assets/img/iconethereum.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 cartoes">
+                <div class="card img-fluid" id="card-background" >
+                    <div class="card-img-overlay info">
+                        <h4 class="card-title text-light">Bitcoin</h4>
+                        <p class="card-text">O bitcoin foi a primeira moeda virtual do mundo, ou seja, ela não existe em
+                            papel nem em nenhum lugar além de sistemas digitais.</p>
+                        <a href="#" class="btn btn-primary card-btn">Saiba mais</a>
+                    </div>
+                    <img class="card-img-top" src="/assets/img/iconbitcoin.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-3 cartoes">
+                <div class="card img-fluid" id="card-background" >
+                    <div class="card-img-overlay info">
+                        <h4 class="card-title text-light">Theter</h4>
+                        <p class="card-text"> O ether pode ser utilizado para enviar
+                            pagamentos diretamente para outra pessoa sem a necessidade de haver um intermediário entre
+                            elas.</p>
+                        <a href="#" class="btn btn-primary card-btn">Saiba mais</a>
+                    </div>
+                    <img class="card-img-top" src="/assets/img/icontether.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Tabela cotações -->
+
+        <div class="row cotacao">
+            <div class="col-lg-3 d-flex flex-column text ">
+                <h3 class="mx-3 text-light">Cotações em tempo real</h3>
+                <p class="mx-3 text-light">Mantenha-se atualizado a respeito das cotações de mais de 20 mil
+                    criptomoedas.
+                </p>
+            </div>
+
+            <div class="col-lg-9 table-responsive">
+                <table class="table table-striped table-dark table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="coluna-logo"> </th>
+                            <th scope="col" class="coluna-moeda">Moeda</th>
+                            <th scope="col" class="coluna-dolar">Dólar</th>
+                            <th scope="col" class="coluna-real">Real</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="/assets/img/btc.png" class="logo-moeda" alt="Logo do Bitcoin"></td>
+                            <td>Bitcoin [BTC]</td>
+                            <td><span id="btc-dolar"></span></td>
+                            <td><span id="btc-real"></span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="/assets/img/ethe.png" class="logo-moeda" alt="Logo do Ether"></td>
+                            <td>Ether [ETH]</td>
+                            <td><span id="eth-dolar"></span></td>
+                            <td><span id="eth-real"></span></td>
+
+                        </tr>
+                        <tr>
+                            <td><img src="/assets/img/tetheri.png" class=" logo-moeda" alt="Logo do Tether">
+                            </td>
+                            <td>Tether [USDT]</td>
+                            <td><span id="tet-dolar"></span></td>
+                            <td><span id="tet-real"></span></td>
+
+                        </tr>
+                        <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Carrossel -->
+        <div class="row">
+            <div class="col-12-sm text-center d-block noticias pt-5">
+                <h2>Noticias e blog</h2>
+                <p>Receba todas as novidade sobre a blockchain</p>
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <!--  marcadores de posição -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <!-- o carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel-images/elochain.jpg" alt="Imagem com desenho de um elo">
+                        <div class="carousel-caption">
+                            <h3>Segurança da blockchain</h3>
+                            <p>Descubra como funciona e porquê ela é tão segura</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel-images/dev.jpg" alt="tela de computador com linguagem de progamação">
+                        <div class="carousel-caption">
+                            <h3>Programador blockchain</h3>
+                            <p>Profissao em ascensão sendo disputada no mercado cripto</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel-images/blockchain.jpg" alt="dados interligados"">
+                        <div class="carousel-caption">
+                            <h3>Smartcontracts</h3>
+                            <p>Nova maneira de celebrar negócios no mundo digital</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!--Aplicativo-->
+        <div class="containter-fluid text-black app-section p-5">
+            <div class="col-lg-7">
+                <h3 class="text-start">Baixe o nosso app para desfrutar a experiência completa!</h3>
+                <p class="paragrafo">Aproveite, sem restrições, todo conteúdo do CriptoApp diretamente do seu iPhone ou
+                    Android.
+                </p>
+
+                <a class="download"
+                    href="https://www.apple.com/br/?afid=p238%7CsC7KKNBEq-dc_mtid_1870765e38482_pcrid_609064169917_pgrid_17049243658_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-"
+                    target="_blank">
+                    <img class="img-fluid" src="/assets/img/apple.png" alt=""></a>
+                <a class="download" href="https://play.google.com/store/games?utm_source=latam_Med&utm_medium=hasem&utm_content=Jul1520&utm_campaign=
+                    Evergreen&pcampaignid=MKT-FDR-latam-br-1002290-Med-hasem-py-Evergreen-Jul1520-Text_Search_BKWS-41905086&gclid=CjwKCA
+                    jww8mWBhABEiwAl6-2RR2wCOlM0F3yXqtPoMdPxoxQVu8U1vHUsTHeZscrgndxIf5-g_I0-RoCzksQAvD_BwE&gclsrc=aw.ds"
+                    target="_blank">
+                    <img class="img-fluid" src="/assets/img/google.png" alt=""></a>
+            </div>
+            <div class="col-md-5 float-end pt-4 ">
+                <img class="img-fluid celular px-5" src="/assets/img/garoto.png" alt="celular com aplicativo">
+            </div>
+        </div>
+
+        <!-- iframe -->
+        <section id="mapa">
+            <div class="iframe-container ">
+                <div class="container-fluid">
+                    <div class="row iframe-row">
+                        <div class="col-sm-6 text-start mapa-texto">
+                            <h3 class="iframe-h3">Deseja ir além e conhecer a sede da CriptoGama?</h3>
+                            <p class="text-sm-start px-3 iframe-p">Agende sua visita pelo aplicativo, nos localizamos no
+                                seguinte endereço:</p>
+                        </div>
+                        <div class="col-sm-6 mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1973547855564!2d-46.6609789763875!3d-23.561354435690884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1657978496418!5m2!1spt-BR!2sbr"
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="85%"
+                                height="400px"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footerzao da massa -->
+        <div class="container-fluid mb-3">
+            <div class="row text-white d-flex  main-content">
+                <div class="col-lg-4 pt-3 left">
+                    <h2 class="text-start">Sobre nós</h2>
+                    <div class="content">
+                        <p>
+                            Somos um grupo comprometido com a melhor experiência de investimento e informação relacionada ao mundo Cripto. 
+                        </p>
+                        <div class="social">
+                            <a href="https://github.com/Lucas-andrade-nascimento/2dCode"><span
+                                    class="fa-brands fa-github fab"></span></a>
+                            <a href="https://twitter.com"><span class="fab fa-twitter"></span></a>
+                            <a href="https://www.instagram.com"><span class="fab fa-instagram"></span></a>
+                            <a href="https://www.youtube.com"><span class="fab fa-youtube"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 pt-3 center ">
+                    <h2 class="text-start">Contato</h2>
+                    <div class="contact">
+                        <div class="place mb-2">
+                            <a
+                                href="https://www.google.com.br/maps/place/Av.+Paulista,+S%C3%A3o+Paulo+-+SP/@-23.5613545,-46.658683,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce59c8da0aa315:0xd59f9431f2c9776a!8m2!3d-23.5613545!4d-46.6564943">
+                                <span class="fas fa-map-marker"></span></a>
+                            <span class="text">Av. Paulista - SP</span>
+                        </div>
+
+                        <div class="contact">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text">+55 11 9999-9999</span>
+                        </div>
+
+                        <div class="email mt-2">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">exemplo@exemplo.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 right">
+                    <h2 class="text-start">Newsletter</h2>
+                    <div class="content">
+                        <form>
+                            <div class="text">Nome:</div>
+                            <input type="name" required placeholder="Seu primeiro nome" />
+
+                            <div class="text">Email:</div>
+                            <input type="email" required placeholder="Seu melhor email aqui" />
+
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="bottom">
+            <div class="center">
+                <span class="credit">Criado por <a href="#">CriptoGama</a></span>
+                <span class="far fa-copyright"></span>
+                2022 Todos os direitos reservados</span>
+            </div>
+    </footer>
+
+</body>
+
+</html>
