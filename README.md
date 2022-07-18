@@ -11,31 +11,31 @@ Realizado em grupo pelos seguintes participantes:
 * [Daniel Santos](https://github.com/danielfjs)
 * [Gabriel Lúcio](https://github.com/Bieoool355)
 
-## Acesse o site e confira: [CriptoGama]()
+## Acesse o site e confira: [CriptoGama](https://lucas-andrade-nascimento.github.io/2dCode/)
 
 ### Prezamos pela responsividade
-![Responsividade]()
+![Responsividade](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Responsividade.gif)
 
 ### Através deste site conseguimos a API das cotações das principais criptos
 * [Coingecko](https://www.coingecko.com/pt/api/documentation)
 
 ### Consumimos a API utilizando o método fetch
-![Consumo-API]()
+![Consumo-API](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Consumo-API.PNG)
 
-![Lista-de-cotacoes]()
+![Lista-de-cotacoes](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Lista-de-cotacoes.PNG)
 
 ### Implementamos o Iframe com a sede da CriptoGama
-![Iframe]()
+![Iframe](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Iframe.PNG)
 
 ### Também implementamos os Cards contendo detalhes interessantes sobre as moedas
-![Cards]()
+![Cards](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Cards.gif)
 
 ### Outra implementação bacana foi o Carrossel
-![Carrossel]()
+![Carrossel](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Carrossel.gif)
 
 ### Mais uma funcionalidade interessante é o redirecionamento dentro da página
-![Redirecionamento]()
+![Redirecionamento](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Redirecionamento.gif)
 
-### Veja também o link do nosso Trello, onde acompanhamos nossas atividades de perto
-* [Trello](https://trello.com/b/sjkfGGqY/grupo-04-desafio-fase-01)
+### Veja também um pouco do nosso Trello, onde acompanhamos nossas atividades de perto
+![Trello](https://github.com/Lucas-andrade-nascimento/2dCode/blob/main/img/documentacao/Trello.gif)
 
