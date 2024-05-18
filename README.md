@@ -11,7 +11,7 @@ Realizado em grupo pelos seguintes participantes:
 * [Daniel Santos](https://github.com/danielfjs)
 * [Gabriel Lúcio](https://github.com/Bieoool355)
 
-## Acesse o nosso site e confira: [CriptoGama](https://lucas-andrade-nascimento.github.io/2dCode/)
+## Acesse o nosso site e confira: [CriptoGama](https://lucas-andrade-nascimento.github.io/landing-page-criptoapp/)
 
 ### O figma ajudou bastante a termos "um norte" no quesito layout da nossa página
 [Figma](https://www.figma.com/file/6aHp5yWLWxIpOHOWhHkJyP/Cripto-Gama?node-id=41733%3A754)
